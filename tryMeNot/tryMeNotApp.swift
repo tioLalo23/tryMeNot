@@ -29,9 +29,9 @@ struct tryMeNotApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationStack {
+                ContentView()
+            }
         }
     }
-    
-    
 }

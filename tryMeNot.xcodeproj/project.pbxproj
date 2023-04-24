@@ -14,7 +14,9 @@
 		7D885E7C29F70E8800A9E9BC /* tryMeNotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D885E7B29F70E8800A9E9BC /* tryMeNotTests.swift */; };
 		7D885E8629F70E8800A9E9BC /* tryMeNotUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D885E8529F70E8800A9E9BC /* tryMeNotUITests.swift */; };
 		7D885E8829F70E8800A9E9BC /* tryMeNotUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D885E8729F70E8800A9E9BC /* tryMeNotUITestsLaunchTests.swift */; };
-		7D885E9929F7131D00A9E9BC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D885E9829F7131D00A9E9BC /* AppDelegate.swift */; };
+		7D885EA129F7273800A9E9BC /* nuevaMedicina.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D885EA029F7273800A9E9BC /* nuevaMedicina.swift */; };
+		7D885EA329F72A1900A9E9BC /* OtraVista.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D885EA229F72A1900A9E9BC /* OtraVista.swift */; };
+		7D885EA529F72D6000A9E9BC /* medicinas.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D885EA429F72D6000A9E9BC /* medicinas.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +47,9 @@
 		7D885E8129F70E8800A9E9BC /* tryMeNotUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tryMeNotUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D885E8529F70E8800A9E9BC /* tryMeNotUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryMeNotUITests.swift; sourceTree = "<group>"; };
 		7D885E8729F70E8800A9E9BC /* tryMeNotUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tryMeNotUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7D885E9829F7131D00A9E9BC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7D885EA029F7273800A9E9BC /* nuevaMedicina.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = nuevaMedicina.swift; sourceTree = "<group>"; };
+		7D885EA229F72A1900A9E9BC /* OtraVista.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtraVista.swift; sourceTree = "<group>"; };
+		7D885EA429F72D6000A9E9BC /* medicinas.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = medicinas.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,10 +101,12 @@
 			isa = PBXGroup;
 			children = (
 				7D885E6A29F70E8600A9E9BC /* tryMeNotApp.swift */,
-				7D885E9829F7131D00A9E9BC /* AppDelegate.swift */,
 				7D885E6C29F70E8600A9E9BC /* ContentView.swift */,
+				7D885EA029F7273800A9E9BC /* nuevaMedicina.swift */,
 				7D885E6E29F70E8800A9E9BC /* Assets.xcassets */,
 				7D885E7029F70E8800A9E9BC /* Preview Content */,
+				7D885EA229F72A1900A9E9BC /* OtraVista.swift */,
+				7D885EA429F72D6000A9E9BC /* medicinas.swift */,
 			);
 			path = tryMeNot;
 			sourceTree = "<group>";
@@ -262,6 +268,9 @@
 			files = (
 				7D885E6D29F70E8600A9E9BC /* ContentView.swift in Sources */,
 				7D885E6B29F70E8600A9E9BC /* tryMeNotApp.swift in Sources */,
+				7D885EA129F7273800A9E9BC /* nuevaMedicina.swift in Sources */,
+				7D885EA529F72D6000A9E9BC /* medicinas.swift in Sources */,
+				7D885EA329F72A1900A9E9BC /* OtraVista.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,7 +278,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D885E9929F7131D00A9E9BC /* AppDelegate.swift in Sources */,
 				7D885E7C29F70E8800A9E9BC /* tryMeNotTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
